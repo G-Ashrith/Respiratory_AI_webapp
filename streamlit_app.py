@@ -13,7 +13,7 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 # -----------------------------
 # CONFIG
 # -----------------------------
-MODEL_PATH = "model/model.h5"
+MODEL_PATH = "model/model.keras"
 CLASS_PATH = "model/categories.pkl"
 
 MAX_LEN = 100
@@ -23,7 +23,7 @@ MAX_LEN = 100
 # -----------------------------
 @st.cache_resource
 def load_ai_model():
-    return load_model(MODEL_PATH, compile=False)
+    return tf.keras.models.load_model(MODEL_PATH)
 
 model = load_ai_model()
 
