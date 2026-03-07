@@ -1,7 +1,6 @@
 flask
 gunicorn
-tensorflow==2.13.0
-keras==2.13.1
+tensorflow==2.12.0
 librosa
 numpy
 matplotlib
