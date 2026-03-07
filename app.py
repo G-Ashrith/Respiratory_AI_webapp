@@ -48,7 +48,7 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 # ------------------------------------------------
 
 print("Loading model...")
-model = load_model(MODEL_FILE)
+model = load_model(MODEL_FILE, compile=False)
 print("Model loaded.")
 
 
