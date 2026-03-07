@@ -6,5 +6,4 @@ matplotlib
 scikit-learn
 soundfile
 werkzeug
-chart.js
 gunicorn
