@@ -1,9 +1,9 @@
 flask
+gunicorn
 tensorflow==2.13.0
+keras==2.13.1
 librosa
 numpy
 matplotlib
 scikit-learn
 soundfile
-werkzeug
-gunicorn
