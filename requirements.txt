@@ -1,8 +1,8 @@
-flask
-gunicorn
-tensorflow==2.12.0
-librosa
-numpy
+streamlit==1.32.2
+tensorflow==2.13.0
+numpy==1.24.3
+librosa==0.10.1
 matplotlib
 scikit-learn
-soundfile
+protobuf==3.20.3
+h5py
