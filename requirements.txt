@@ -1,0 +1,10 @@
+flask
+tensorflow>=2.9
+librosa
+numpy
+matplotlib
+scikit-learn
+soundfile
+werkzeug
+chart.js
+gunicorn

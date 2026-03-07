@@ -1,0 +1,4 @@
+/* static/style.css */
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.card { border-radius: 12px; }
+img.border { max-height: 360px; object-fit: contain; }
