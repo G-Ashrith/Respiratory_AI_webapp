@@ -2,10 +2,9 @@ import streamlit as st
 import numpy as np
 import librosa
 import matplotlib.pyplot as plt
-import tensorflow as tf
 import pickle
 import io
-
+import keras
 st.set_page_config(page_title="Respiratory Sound Classifier", layout="wide")
 
 # ------------------------------------------------
@@ -24,10 +23,10 @@ MAX_LEN = 100
 @st.cache_resource
 def load_model_files():
 
-    model = tf.keras.models.load_model(
-        MODEL_FILE,
-        compile=False
-    )
+    model = keras.models.load_model(
+    MODEL_FILE,
+    compile=False
+)
 
     with open(CATEGORIES_FILE, "rb") as f:
         raw_categories = pickle.load(f)
