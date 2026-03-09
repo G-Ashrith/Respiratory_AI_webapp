@@ -1,8 +1,9 @@
 streamlit==1.32.2
-tensorflow==2.13.0
+tensorflow==2.15.0
 numpy==1.24.3
 librosa==0.10.1
 matplotlib
 scikit-learn
 protobuf==3.20.3
 h5py
+keras==3.0.5
